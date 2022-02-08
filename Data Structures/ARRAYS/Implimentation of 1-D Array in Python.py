@@ -59,7 +59,7 @@ class Array:
     
 # Driver Code/Main Section.
 array1D = Array(5) # initialize the array of length is equal to 5.
-array1D[0] = 2 # sets item to the array.
+array1D[0] = 2 # sets an item to the array.
 array1D[1] = 4
 array1D[2] = 6
 array1D[3] = 8

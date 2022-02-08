@@ -83,7 +83,7 @@ print(len(BAG)) # returns the latest length of a bag.
 print(BAG.__len__()) # returns the latest length of a bag.
 BAG.printBag() # print the bag and show in a console screen.
 BAG.remove(2) # remove an item from bag.
-BAG.printBag() # print the bag and show in a console screen.
+BAG.printBag() # print the bag and show it in a console screen.
 print(BAG.getItemfromBag(2)) # get item from bag with the help of index.
 print(BAG.__contains__(3)) # returns true or false according to the result.
 print(2 in BAG) # returns true or false according to condition.

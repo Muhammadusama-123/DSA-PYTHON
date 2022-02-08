@@ -27,7 +27,7 @@ def LinearSearch(emptyList, sizeOfList, searchValue):
 
 # Driver code:
 sizeOfList = int(input('Enter size of the list: '))
-emptyList = []
+emptyList = [] # initialies an empty list.
 for i in range(sizeOfList):
     value = int(input('Enter values to store in a list: '))
     emptyList.append(value)

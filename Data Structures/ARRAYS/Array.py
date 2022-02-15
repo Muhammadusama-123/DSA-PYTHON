@@ -29,7 +29,7 @@ class Array:
     def __init__(self, size):
         assert size > 0, "The size of the array must be greater than 0"
         self._size = size
-        PythonArray = ctypes.py_object * size
+        PythonArray = ctypes.py_object * size # creates an array in python using c-types module.
         # array is stored in the _elements property.
         self._elements = PythonArray()
         self.clear(None)
@@ -60,6 +60,7 @@ class Array:
     
     
 # Driver Code/Main Section.
+'''
 array1D = Array(5) # initialize the array of length is equal to 5.
 array1D[0] = 2 # sets an item to the array.
 array1D[1] = 4
@@ -73,6 +74,7 @@ array1D.clear(0) # This method sets all the values of an array to the value you 
 print("The elements after iteration are:")
 for item in array1D: # This script is used for traversing an array.
     print(item)
+'''
         
     
     
